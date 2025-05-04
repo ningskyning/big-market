@@ -1,5 +1,5 @@
-# xfg-frame-archetype - DDD 脚手架
+# big-market 大营销系统
+
+## 开发日志# xfg-frame-archetype - DDD 脚手架
 
 
-md5 scaffold-lite-1.0.pom > scaffold-lite-1.0.pom.md5
-sha1sum scaffold-lite-1.0.pom > scaffold-lite-1.0.pom.sha1
