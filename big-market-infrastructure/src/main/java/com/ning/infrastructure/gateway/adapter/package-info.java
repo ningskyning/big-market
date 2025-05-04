@@ -1,0 +1,1 @@
+package com.ning.infrastructure.gateway.adapter;
