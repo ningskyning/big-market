@@ -1,5 +1,6 @@
 package com.ning.infrastructure.persistent.dao;
 
+import com.ning.domain.Strategy.model.valobj.StrategyAwardRuleModelVO;
 import com.ning.infrastructure.persistent.po.StrategyRule;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -14,4 +15,5 @@ public interface IStrategyRuleDao {
 
     String queryStrategyRuleValue(StrategyRule strategyRule);
 
+    StrategyAwardRuleModelVO queryStrategyAwardRuleModel(Long strategyId, Integer awardId);
 }

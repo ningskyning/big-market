@@ -33,5 +33,9 @@
             and award_id = #{awardId}
         </if>
     </select>
+    <select id="queryStrategyAwardRuleModel"  resultType="com.ning.domain.Strategy.model.valobj.StrategyAwardRuleModelVO">
+        select rule_value form strategy_rule
+        where strategy_id = #{strategyId} and award_id = #{awardId}
+    </select>
 
 </mapper>

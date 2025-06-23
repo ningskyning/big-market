@@ -8,6 +8,7 @@
     </parent>
 
     <artifactId>big-market-types</artifactId>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>

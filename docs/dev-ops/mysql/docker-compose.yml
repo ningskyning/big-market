@@ -18,8 +18,8 @@ services:
       - "3306:3306"
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
-    volumes_from:
-      - mysql-job-dbdata
+#    volumes_from:
+#      - mysql-job-dbdata
 
   # 自动加载数据
   mysql-job-dbdata:

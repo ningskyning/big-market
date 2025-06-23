@@ -1,1 +1,0 @@
-package com.ning.domain.xxx.service;
